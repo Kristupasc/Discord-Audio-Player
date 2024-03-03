@@ -6,6 +6,7 @@ This Discord bot has all the implementation to play an audio file in a voice cha
 ## Usage
 To use the bot, you need to have a bot token and a voice channel to join. You can get a bot token by creating a new bot in the Discord Developer Portal and you can get a voice channel to join by creating a new server or joining an existing one.
 <br>**Note:** The bot needs to have the "Connect" and "Speak" permissions in the voice channel to join and play audio.
+<br>To play an audio file, it has to be inside the `audio` folder as an .mp3 file. Other formats were not tested. 
 
 ## Installation
 For some, running this could be more complicated since you need to have ffmpeg installed on your system. You can download it from the official website [here](https://www.ffmpeg.org/download.html), add it to your system's PATH and restart your PC. 
